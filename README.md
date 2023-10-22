@@ -12,7 +12,7 @@ En este proyecto voy a limpiar y analizar los datos sobre ataques de tiburones a
 
     - you can use: df.describe(), df["column"], etc.
 
-#####Realizar limpieza, carga de datos -> ver por encima, scribe, quitar nulos, poner unidades, establecer criterio ordenado en las columnas...
+#####Realizar limpieza, carga de datos -> ver por encima, describe, quitar nulos, poner unidades, establecer criterio ordenado en las columnas...
 
 ** especie de tiburones
 
@@ -52,7 +52,7 @@ En este proyecto voy a limpiar y analizar los datos sobre ataques de tiburones a
 
 2. Open an Issue on this repo and paste your own repo's link.
 
-##Obligations and Restrictions
+##Obligations & Restrictions
 
 - OBLIGACIÓN MIN:
 df.shape == (2500,23) ESTO ES LO MINIMO 
