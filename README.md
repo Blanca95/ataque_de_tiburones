@@ -75,3 +75,11 @@ https://matplotlib.org/
 https://seaborn.pydata.org/
 https://pandas.pydata.org/docs/
 https://towardsdatascience.com/beware-of-storytelling-with-data-1710fea554b0?gi=537e0c10d89e
+
+##Conclusions:
+
+- El Dataframe es un caos, tanto de orden, de datos obtenidos, etc.
+- El país con mas ataques es USA.
+- De los ataques realizados por tiburones, no se sabe la especie de tiburón generalmente. En cambio si conocemos la especie, la más común es el tiburón blanco.
+- La mayoría de los ataques no fueron provocados.
+- La mayoría de las heridas fueron fatales, sin embargo, no letales, ya que la mayoría no murieron.
