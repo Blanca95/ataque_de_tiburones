@@ -1,85 +1,43 @@
-# Ataque de Tiburones
+#Proyecto Ataque de Tiburones
 
 ![Alt text](img/Tibu_ballena.jpg)
 
-For this project, I will start with this messy data set Shark Attack. I will need to download it, import it, use my data wrangling skills to clean it up, prepare it to be analyzed, and then export it as a clean CSV data file. Add graphs to better understand the data!!
+##Introducción
 
-En este proyecto voy a limpiar y analizar los datos sobre ataques de tiburones a personas
+En este proyecto voy a limpiar y analizar los datos sobre ataques de tiburones a personas. Es el primer proyecto del curso, y la clave será quedarnos como mínimo con 2500 filas y 23 columnas, comparándolo con los valores inciales de 25723 filas y 24 columnas. 
 
-##TO DO's
+##Objetivos, obligaciones y restricciones
 
-1. Explore the data and write down what you have found
+🦈 OBJETIVOS:  
+- Realizar limpieza de los datos, cargar los datos, exploración, describe, quitar nulos, establecer criterio ordenado en las columnas, etc.
+- Bonus: tener un objetivo y realizar un análisis del mismo
 
-    - you can use: df.describe(), df["column"], etc.
+🦈 OBLIGACIÓN MIN:
+- df.shape == (2500,23) COMO MINIMO 
 
-#####Realizar limpieza, carga de datos -> ver por encima, describe, quitar nulos, poner unidades, establecer criterio ordenado en las columnas...
+🦈 RESTRICCIONES:
+- NO SE BORRAN COLUMNAS (se pueden añadir columnas)
+- AL MENOS 2500 FILAS 
+- Deadline: MARTES
 
-** especie de tiburones
+##Proceso de limpieza:
 
-2. Use at least 5 data cleaning techniques inside a file named clean.ipynb
-    
-    - null values, columns drop, duplicated data, string manipulation, apply fn, categorize, regex, etc.
+1. Importar librerías y descargar el documento csv
+2. Exploración inicial
+3. Limpieza:
+- Cambio de nombres y orden de las columnas
+- Eliminación de los duplicados
+- Eliminación de los valores nulos
+- Corrección de los valores de las columnas a estudiar
 
-3. Show data that validates the conclusions based on your hypoteses in a file named analysis.ipynb
+##Análisis:
+![Alt text](image-1.png)
 
-#####EL PROYECTO ES INFINITO!!! NO VA A ACABAR, PENSAR EN CADA PASO, SIGUIENTE CURVA..
+![Alt text](image-2.png)
 
-#####resetear el nombre de todas las columnas para que no tengan falta de ortografia espacios...
+##Conclusiones:
 
-##Suggested Ways to Get Started
-
-- Examine the data and try to understand what the fields mean before diving into data cleaning and manipulation methods.
-
-- Break the project down into different steps - use the topics covered in the lessons to form a check list, add anything else you can think of that may be wrong with your data set, and then work through the check list.
-
-- Use the tools in your tool kit - your knowledge of Python, data structures, Pandas, and data wrangling. Work through the lessons in class & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... procrastinating.
-
-- Commit early, commit often, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-
-- Consult documentation and resources provided to better understand the tools you are using and how to accomplish what you want.
-
-##How to deliver the project
-
-1. Create a new repo with the name data-cleaning-pandas on your github account.
-
-    - Create a README.md file on repo root with project documentation. Make sure to include as much useful information as possible. Someone that finds the README.md should be able to fully get a gist of the project without browsing your files.
-
-    - Include a .gitignore
-
-    - At least 1 jupyter notebook is required
-
-    - Including your functions in a src.py is very, very highly reccommended (maybe even mandatory, check with your instructors)
-
-2. Open an Issue on this repo and paste your own repo's link.
-
-##Obligations & Restrictions
-
-- OBLIGACIÓN MIN:
-df.shape == (2500,23) ESTO ES LO MINIMO 
-
-- RESTRICCIONES:
-    1.  NO SE BORRAN COLUMNAS (hay una columna con nan todo...) si se pueden añadir columnas
-    2. AL MENOS 2500 FILAS 
-    3. Deadline: MARTES
-
-- BONUS: PONER OBJETIVO Y HACER PEQUEÑO ANÁLISIS (ej: hay sesgo x genero, especie de tiburion, etc)
-
-##Links & Resources:
-
-https://www.kaggle.com/teajay/global-shark-attacks
-https://numpy.org/doc/1.18/
-https://pandas.pydata.org/
-https://docs.python.org/3/library/functions.html
-https://plotly.com/python/
-https://matplotlib.org/
-https://seaborn.pydata.org/
-https://pandas.pydata.org/docs/
-https://towardsdatascience.com/beware-of-storytelling-with-data-1710fea554b0?gi=537e0c10d89e
-
-##Conclusions:
-
-- El Dataframe es un caos, tanto de orden, de datos obtenidos, etc.
-- El país con mas ataques es USA.
-- De los ataques realizados por tiburones, no se sabe la especie de tiburón generalmente. En cambio si conocemos la especie, la más común es el tiburón blanco.
-- La mayoría de los ataques no fueron provocados.
-- La mayoría de las heridas fueron fatales, sin embargo, no letales, ya que la mayoría no murieron.
+- El Dataframe original es un caos 😫
+- Los países más comunes son USA, AUSTRALIA y SOUTH AFRICA
+- La mayoría de los ataques NO fueron PROVOCADOS 
+- La mayoría de las heridas fueron NO LETALES
